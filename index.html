@@ -103,6 +103,9 @@
                       <label for="images">Ảnh đăng kèm <span class="text-info">(nhấn nút ở dưới để up ảnh hoặc để trống nếu bạn không cần ảnh)</span></label>
                       <textarea class="form-control confess" id="images" rows="5" v-model="images" placeholder="Nhập mỗi link ảnh một dòng..."></textarea>
                     </div>
+                    <div class="form-group">
+                      <label for="images">Bạn có thể đăng bài viết tại <a href="https://www.facebook.com/confessions.lacdaolieudequynhat/"><span class="text-info">(Fanpage Confession Lạc Đạo - Liễu Đề - Quỹ Nhất)</span></a></label>
+                    </div>
                     <button type="submit" class="btn btn-primary btn-round" v-bind:class="{disabled: loading}">{{loading ? 'Đang gửi...' : 'Gửi bài'}}</button>
                     <a href="https://imgur.com/upload" target="_blank" rel="noopener" class="btn btn-secondary btn-round btn-upload">Upload ảnh</a>
                   </form>
